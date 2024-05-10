@@ -1,0 +1,45 @@
+## Obtener datos de Azure Analysis Services
+
+**Resumen:**
+
+Azure Analysis Services (AAS) es una plataforma en la nube que permite crear modelos semánticos para analizar datos de diversas fuentes. Estos modelos se pueden usar con herramientas como Power BI para crear informes y análisis.
+
+**Cómo obtener datos de AAS:**
+
+1. **Autenticarse en el servidor.**
+2. **Elegir el modelo que desea usar.**
+3. **Seleccionar las tablas que necesita.**
+
+**Diferencias entre AAS y SQL Server:**
+
+* Los modelos de AAS ya tienen cálculos creados.
+* Puede consultar datos directamente sin necesidad de importar toda la tabla.
+* En lugar de T-SQL, se usan MDX o DAX para consultar datos.
+
+**Conexión a AAS con Power BI Desktop:**
+
+* Use la función "Obtener datos".
+* Seleccione "Analysis Services".
+* Elija "Importar" o "Conectar en directo".
+
+**"Conectar en directo":**
+
+* Mantiene los datos y cálculos en AAS.
+* Actualiza los informes de Power BI automáticamente.
+* Permite usar DAX o MDX para consultar datos.
+
+**Importación de datos:**
+
+* Importe los datos directamente a Power BI.
+* Importe los datos a AAS y luego conéctese en directo.
+
+**Consideraciones:**
+
+* La importación de datos a Power BI puede ser útil para análisis fuera de línea.
+* Conectar en directo ofrece mayor actualización y simplicidad.
+* La mejor opción depende de sus necesidades específicas.
+
+**Recursos adicionales:**
+
+* [https://learn.microsoft.com/en-us/azure/analysis-services/](https://learn.microsoft.com/en-us/azure/analysis-services/)
+* [https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-connect-pbi](https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-connect-pbi)
